@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;700&display=swap");
+
+/* -------------------------
+   🌴 SANDBOX CSS DEMO
+------------------------- */
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #bbb3a8;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  height: 100%;
+  padding: 2vh;
+}
+
+#title {
+  font-family: "Pacifico", cursive;
+  color: #ed4242;
+}
+
+.grid-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* ========== BASE TYPOGRAPHY ========== */
+h1,
+h2 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* ========== FONT COLOR EXAMPLE ========== */
+.highlight {
+  color: #40f9e3;
+}
+
+/* ========== CLASS VS ID ========== */
+.class-demo {
+  background: #f1faee;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#id-demo {
+  background: #a8dadc;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* ========== FLEXBOX EXAMPLE ========== */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.flex-item {
+  background: #a8dadc;
+  padding: 1rem;
+  flex: 1;
+  text-align: center;
+}
+
+/* ========== GRID EXAMPLE ========== */
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #457b9d;
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* ========== BUTTON EXAMPLE ========== */
+.btn {
+  background: #1d3557;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #457b9d;
+}
+
+/* ========== PSEUDO-CLASS EXAMPLE ========== */
+ul.pseudo li:first-child {
+  font-weight: bold;
+  color: #ed4242;
+}
+
+ul.pseudo {
+  list-style-position: inside;
+  padding-left: 0;
+  text-align: center;
+}
+
+/* ========== PSEUDO-ELEMENT EXAMPLE ========== */
+.pseudo-element::before {
+  content: "👉 ";
+}
+
+/* ========== BLOCK VS INLINE-BLOCK ========== */
+.block {
+  display: block;
+  background: #f1faee;
+  padding: 0.5rem;
+  margin: 0 auto 0.5rem auto;
+  width: 200px;
+}
+
+.inline-block {
+  display: inline-block;
+  background: #f1faee;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+}
+
+/* ========== POSITIONING EXAMPLE ========== */
+.relative {
+  position: relative;
+  background: #f1faee;
+  padding: 2rem;
+  margin: 2rem auto 4rem auto;
+  width: 300px;
+  min-height: 120px;
+  padding-top: 3rem;
+}
+
+.absolute {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #ed4242;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+}
+
+/* ========== MEDIA QUERY EXAMPLE ========== */
+@media (max-width: 600px) {
+  body {
+    background: #40f9e3;
+  }
+}
