@@ -13,7 +13,7 @@
 
 ### ***Description***
 
-A script for spinning up quick sandboxes for teaching Unit 1 fundamentals.
+A script + starter files for spinning up quick sandboxes for teaching Unit 1 fundamentals.
 
 - `sandbox`: creates a basic HTML, CSS, JS starter, completely empty.
 - `sandbox --html`: basics + several example HTML elements with explanations
